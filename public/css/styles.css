@@ -1259,15 +1259,6 @@ body.has-active-menu {
 }
 
 /* line 13, ../../sass/styles.scss */
-.photo-audrey {
-  background: url("../images/audrey.jpg") no-repeat center center;
-  background-size: cover;
-  z-index: 45;
-  -webkit-color-interpolation-filters: linearRGB;
-  color-interpolation-filters: linearRGB;
-}
-
-/* line 13, ../../sass/styles.scss */
 .photo-coding {
   background: url("../images/coding.jpg") no-repeat center center;
   background-size: cover;
@@ -1360,7 +1351,7 @@ body .about {
 }
 
 /* line 81, ../../sass/styles.scss */
-.home .col-lg-3, .home .col-lg-12 {
+.home .col-lg-4, .home .col-lg-12 {
   margin: 0;
   padding: 0;
   height: calc(100% + 900px);
@@ -1368,7 +1359,7 @@ body .about {
 }
 
 /* line 88, ../../sass/styles.scss */
-.home .col-lg-3 {
+.home .col-lg-4 {
   height: 100%;
 }
 
@@ -1490,7 +1481,7 @@ body .about {
 
 @media only screen and (min-width: 1199px) {
   /* line 196, ../../sass/styles.scss */
-  .show-photo-filter, .film-panel:hover .hide-photo-filter, .theater-panel:hover .hide-photo-filter, .music-panel:hover .hide-photo-filter, .code-panel:hover .hide-photo-filter, .about-panel .hide-photo-filter {
+  .show-photo-filter, .film-panel:hover .hide-photo-filter, .theater-panel:hover .hide-photo-filter, .code-panel:hover .hide-photo-filter, .about-panel .hide-photo-filter {
     display: block;
   }
 }
@@ -1578,46 +1569,10 @@ body .about {
 
 /* Generates animations for cascading tiles */
 /* line 222, ../../sass/styles.scss */
-.picture-music {
+.picture-code {
   -webkit-animation-delay: 0.9s;
   -moz-animation-delay: 0.9s;
   animation-delay: 0.9s;
-  color: #f6f6f6;
-}
-
-/* Generates different colors for panel descriptions */
-/* line 231, ../../sass/styles.scss */
-.music-panel {
-  cursor: pointer;
-}
-/* line 233, ../../sass/styles.scss */
-.music-panel .panel-description {
-  background-color: rgba(165, 42, 42, 0.7);
-  text-align: left;
-}
-@media only screen and (max-width: 450px) {
-  /* line 236, ../../sass/styles.scss */
-  .music-panel .panel-description p {
-    font-weight: 300;
-  }
-}
-@media only screen and (max-width: 450px) {
-  /* line 241, ../../sass/styles.scss */
-  .music-panel .panel-description {
-    display: block;
-  }
-}
-/* line 244, ../../sass/styles.scss */
-.music-panel:hover .panel-description {
-  display: block;
-}
-
-/* Generates animations for cascading tiles */
-/* line 222, ../../sass/styles.scss */
-.picture-code {
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay: 1.2s;
-  animation-delay: 1.2s;
   color: #f6f6f6;
 }
 
@@ -1628,7 +1583,7 @@ body .about {
 }
 /* line 233, ../../sass/styles.scss */
 .code-panel .panel-description {
-  background-color: rgba(60, 179, 113, 0.7);
+  background-color: rgba(165, 42, 42, 0.7);
   text-align: left;
 }
 @media only screen and (max-width: 450px) {
@@ -1673,24 +1628,6 @@ body .about {
   -webkit-animation-delay: 0.24s;
   -moz-animation-delay: 0.24s;
   animation-delay: 0.24s;
-  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-}
-
-/* Generates animations for content to slide in from right */
-/* line 266, ../../sass/styles.scss */
-.four {
-  -webkit-animation-delay: 0.32s;
-  -moz-animation-delay: 0.32s;
-  animation-delay: 0.32s;
-  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-}
-
-/* Generates animations for content to slide in from right */
-/* line 266, ../../sass/styles.scss */
-.five {
-  -webkit-animation-delay: 0.4s;
-  -moz-animation-delay: 0.4s;
-  animation-delay: 0.4s;
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
 
@@ -2090,7 +2027,6 @@ body .about {
   /* Generates animations for cascading tiles */
   /* Generates animations for cascading tiles */
   /* Generates animations for cascading tiles */
-  /* Generates animations for cascading tiles */
 }
 /* line 625, ../../sass/styles.scss */
 .mobile-nav .nav-name, .mobile-nav .navbar-nav {
@@ -2144,31 +2080,24 @@ body .about {
   animation-timing-function: ease;
 }
 /* line 640, ../../sass/styles.scss */
-.mobile-nav ul .music-nav a {
+.mobile-nav ul .code-nav a {
   -webkit-animation-delay: 0.24s;
   -moz-animation-delay: 0.24s;
   animation-delay: 0.24s;
   animation-timing-function: ease;
 }
 /* line 640, ../../sass/styles.scss */
-.mobile-nav ul .code-nav a {
+.mobile-nav ul .about-nav a {
   -webkit-animation-delay: 0.3s;
   -moz-animation-delay: 0.3s;
   animation-delay: 0.3s;
   animation-timing-function: ease;
 }
 /* line 640, ../../sass/styles.scss */
-.mobile-nav ul .about-nav a {
+.mobile-nav ul .contact-nav a {
   -webkit-animation-delay: 0.36s;
   -moz-animation-delay: 0.36s;
   animation-delay: 0.36s;
-  animation-timing-function: ease;
-}
-/* line 640, ../../sass/styles.scss */
-.mobile-nav ul .contact-nav a {
-  -webkit-animation-delay: 0.42s;
-  -moz-animation-delay: 0.42s;
-  animation-delay: 0.42s;
   animation-timing-function: ease;
 }
 /* line 650, ../../sass/styles.scss */
